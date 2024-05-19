@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    android:paddingHorizontal="16dp"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tentang_aplikasi"
+        android:textSize="56sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Terhubung Lebih Dekat, Berprestasi Lebih Jauh
+Temukan kembali teman-teman lama dan bangun jaringan profesional yang kuat. Bersama-sama, kita bisa mencapai lebih banyak!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Kami bertujuan untuk menjadi pusat yang terpercaya dalam pendataan alumni PNJ yang menyediakan sumber daya yang komprehensif dan berkelanjutan untuk memperkuat hubungan antara alumni, mempromosikan kolaborasi yang produktif, dan memberikan inspirasi bagi generasi-generasi PNJ berikutnya." />
+</LinearLayout>
